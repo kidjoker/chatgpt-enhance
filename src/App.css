@@ -37,12 +37,17 @@
 }
 
 .chat-input {
-  padding: 24px;
+  padding: 15px 24px;
   position: absolute;
   left: 0; right: 0; bottom: 0;
 }
 
 .chat-log {
+  overflow-y: auto;
+  height: 90%;
+}
+
+.chat-log-content {
   text-align: left;
 }
 
